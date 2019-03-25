@@ -206,6 +206,7 @@ div:target{
 /* 颜色和尺寸 */
 /* 文本的大小 */
 /* 文本样式 */
+/* 文本控制 */
 @font-face{
     font-family: 'long';
     src: url('今昔豪龙.otf');
@@ -250,7 +251,15 @@ p{
   /*   text-decoration: underline; */
     /* text-decoration: overline; */
    /*  text-decoration: line-through; */
-
+    /* text-align: center; */
+    /* white-space: normal; */
+    /* white-space: nowrap; */
+    /* white-space: pre; */
+    /* white-space: pre-line; */
+    /* white-space: pre-wrap;
+    pre 代表空白符保留  wrap 表示换行 */
+    word-wrap: break-word;
+    /* text-indent: 20px; */
 }
 
 /* a{
