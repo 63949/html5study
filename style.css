@@ -80,7 +80,7 @@ p ~ b{
 
 /* 伪元素选择器 */
 /* 块级首行 */
-::first-line{
+/* ::first-line{
     color:burlywood;
 }
 
@@ -94,4 +94,41 @@ p::before{
 
 p::after{
     content: "引用于网络。"
+} */
+
+/* 结构性伪类选择器 */
+/* :root{
+    border: 1px dashed red;
 }
+
+ul > li:first-child{
+    color: blue;
+}
+
+ul>li:last-child{
+    color: yellowgreen;
+}
+
+ul>li>span:only-child{
+    color: red;
+}
+
+ul>li>p:only-of-type{
+    color: yellow;
+} */
+
+/* ul>li:nth-child(2){
+    color: aquamarine;
+}
+
+ul>li:nth-last-child(2){
+    color: blue;
+}
+
+ul>li:nth-of-type(2){
+    color: red;
+}
+
+ul>li:nth-last-of-type(2){
+    color: yellow;
+} */
