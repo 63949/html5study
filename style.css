@@ -258,7 +258,7 @@ p{
     /* white-space: pre-line; */
     /* white-space: pre-wrap;
     pre 代表空白符保留  wrap 表示换行 */
-    word-wrap: break-word;
+   /*  word-wrap: break-word; */
     /* text-indent: 20px; */
 }
 
@@ -266,11 +266,115 @@ p{
     text-decoration: none;
 } */
 
-body{
+/* body{
     font-size: 20px;
 }
 
 span{
     text-transform: lowercase;
     text-shadow: 3px 3px 5px yellow;
+}
+ */
+
+ /* css盒模型 */
+div{
+    /* background-color: gray; */
+    /* width: 500px;
+    height: 500px; */
+    /* width: 50px;
+    height: 50px;
+    min-width: 200px;
+    min-height: 200px; */
+
+    /* width: 5000px;
+    height: 5000px;
+    max-width: 200px;
+    max-height: 200px; */
+
+    /* width:auto;
+    height: auto; */
+    
+}
+
+/* #a{
+    background: silver;
+    width: 500px;
+    height: 500px;
+}
+#b{
+    background: yellow;
+    width: 70%;
+    height: 70%;
+} */
+
+div{
+    /* width: 200px;
+    height: 200px;
+    padding: 10px; 
+    padding: 10px 20px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px 40px 50px;
+    margin: 20px; */
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+
+    /* width: 500px;
+    height: 500px;
+    background:green; */
+    /* visibility: hidden; */
+    /* visibility: collapse;   无效 */
+}
+
+/* table{
+    border: 1px double black;
+} */
+
+table tr:first-child{
+    /* visibility: hidden; */
+    /* visibility: collapse; */
+}
+
+div{
+    /* height: 200px;
+    width: 200px;
+    background: salmon; */
+    /* display: inline; */
+    /* display: inline-block; */
+}
+
+span{
+    /* height: 200px;
+    width: 200px;
+    background:seagreen; */
+    /* display: block; */
+    /* display: inline-block; */
+}
+
+img{
+    /* height: 200px;
+    width: 200px; */
+    /* display: block; */
+    /* display: inline; */
+} 
+
+div{
+    height: 200px;
+    width: 200px;
+}
+
+#a{
+    background: red;
+    float: left;
+}
+
+#b{
+    background: blue;
+    float: left;
+}
+
+#c{
+    background: yellowgreen;
+    clear: both;
 }
