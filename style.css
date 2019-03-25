@@ -467,3 +467,15 @@ img{
 em{
     vertical-align: 400%;
 }
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    /* color: blue;
+    background-color: brown;
+    opacity: 0.1; */
+    box-shadow: 10px 10px 5px 2px gray inset;
+    outline: 5px dotted red;
+    cursor: text;
+}
