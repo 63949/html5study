@@ -359,7 +359,7 @@ img{
     /* display: inline; */
 } 
 
-div{
+/* div{
     height: 200px;
     width: 200px;
 }
@@ -378,3 +378,36 @@ div{
     background: yellowgreen;
     clear: both;
 }
+ */
+
+ /* 边框和背景 */
+ div{
+     height: 500px;
+     width: 500px;
+     /* background: red; */
+     /* border-style: dotted;
+     border-width: 20px;
+     border-color: blueviolet;
+     border-radius: 20px 30px 40px 50px; */
+
+     /* background-image: url(./1.jpg); */
+     /* background-repeat: no-repeat; */
+     /* background-size: auto; */
+     /* background-size: contain; */
+     /* background-size: cover; */
+     /* padding: 30px; */
+     /* background-origin:content-box;  */
+     /* background-origin:padding-box;  */
+     /* background-origin:border-box;  */
+     /* background-clip: border-box; */
+     /* background-clip: padding-box; */
+     /* background-clip: content-box; */
+     padding: 30px;
+     background: silver url(./1.jpg) no-repeat scroll left bottom / 100% border-box content-box;
+ }
+
+ body{
+    /* background-image: url(./1.jpg); */
+    /* background-attachment: scroll; */
+    /* background-attachment: fixed; */
+ }
