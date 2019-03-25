@@ -204,6 +204,13 @@ div:target{
     color: rebeccapurple;
 } */
 /* 颜色和尺寸 */
+/* 文本的大小 */
+
+@font-face{
+    font-family: 'long';
+    src: url('今昔豪龙.otf');
+}
+
 p{
     /* color: red;
     color: #ff0000;
@@ -225,9 +232,24 @@ p{
     font-size: 20px;
     height: 40px; */
 
-    margin: 0;
+    /* margin: 0;
     padding: 0;
     background-color: yellow;
     font-size: 20px;
-    width: 50%;
+    width: 50%; */
+
+    /* font-size: 50px; */
+    /* font-size: xx-large; */
+    /* font-size: xx-small; */
+    /* font-size: smaller;  */ /* 比较大小 */
+    /* font-variant: small-caps; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    font-weight: lighter;
+    font-family: 'long';
 }
+
+body{
+    font-size: 20px;
+}
+
