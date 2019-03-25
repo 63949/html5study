@@ -205,7 +205,7 @@ div:target{
 } */
 /* 颜色和尺寸 */
 /* 文本的大小 */
-
+/* 文本样式 */
 @font-face{
     font-family: 'long';
     src: url('今昔豪龙.otf');
@@ -245,11 +245,23 @@ p{
     /* font-variant: small-caps; */
     /* font-style: italic; */
     /* font-style: oblique; */
-    font-weight: lighter;
-    font-family: 'long';
+    /* font-weight: lighter;
+    font-family: 'long'; */
+  /*   text-decoration: underline; */
+    /* text-decoration: overline; */
+   /*  text-decoration: line-through; */
+
 }
+
+/* a{
+    text-decoration: none;
+} */
 
 body{
     font-size: 20px;
 }
 
+span{
+    text-transform: lowercase;
+    text-shadow: 3px 3px 5px yellow;
+}
