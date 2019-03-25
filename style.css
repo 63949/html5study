@@ -188,7 +188,7 @@ input:focus{
 } */
 
 /* 其它伪类选择器 */
-a:not([href*="baidu"]){
+/* a:not([href*="baidu"]){
     color: aqua;
 }
 
@@ -202,4 +202,32 @@ div:target{
 
 ::selection{
     color: rebeccapurple;
+} */
+/* 颜色和尺寸 */
+p{
+    /* color: red;
+    color: #ff0000;
+    color: #f00; 
+    color: rgb(255,0,0);
+    color: rgba(255,0,0,0.5); 
+    color: hsl(128, 100%, 30%);
+    color: hsla(128, 100%, 30%,0.8);*/
+
+    /* margin: 0;
+    padding: 0;
+    background-color: yellow;
+    font-size: 20px;
+    height: 3em; */
+
+    /* margin: 0;
+    padding: 0;
+    background-color: yellow;
+    font-size: 20px;
+    height: 40px; */
+
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    font-size: 20px;
+    width: 50%;
 }
