@@ -28,7 +28,7 @@ p.abc{
 } */
 
 /* 属性选择器 */
-[href] {
+/* [href] {
     color: bisque;
 }
 
@@ -54,4 +54,26 @@ p.abc{
 
 [lang|="en"]{
     color: aquamarine;
+} */
+
+/* 复合选择器 */
+
+p,span{
+    color: aquamarine;
+}
+
+ul li{
+    color: blue;
+}
+
+ul > li{
+    color: brown;
+}
+
+p + b{
+    color: blueviolet;
+}
+
+p ~ b{
+    color:antiquewhite;
 }
