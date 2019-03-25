@@ -134,7 +134,7 @@ ul>li:nth-last-of-type(2){
 } */
 
 /* UI 伪类选择器 */
-:enabled{
+/* :enabled{
     border: 1px dashed red;
 }
 
@@ -164,4 +164,25 @@ input:required{
 
 input:optional{
     border: 1px dashed green;
+} */
+
+/* 动态伪类选择器 */
+a:link{
+    color: blue;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: red;
+}
+
+input:focus{
+    border: 5px double red;
 }
