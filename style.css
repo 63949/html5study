@@ -58,7 +58,7 @@ p.abc{
 
 /* 复合选择器 */
 
-p,span{
+/* p,span{
     color: aquamarine;
 }
 
@@ -76,4 +76,22 @@ p + b{
 
 p ~ b{
     color:antiquewhite;
+} */
+
+/* 伪元素选择器 */
+/* 块级首行 */
+::first-line{
+    color:burlywood;
+}
+
+::first-letter{
+    color: hotpink;
+}
+
+p::before{
+    content: "据报道："
+}
+
+p::after{
+    content: "引用于网络。"
 }
