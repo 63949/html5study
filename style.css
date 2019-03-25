@@ -382,8 +382,8 @@ img{
 
  /* 边框和背景 */
  div{
-     height: 500px;
-     width: 500px;
+     /* height: 500px;
+     width: 500px; */
      /* background: red; */
      /* border-style: dotted;
      border-width: 20px;
@@ -402,8 +402,8 @@ img{
      /* background-clip: border-box; */
      /* background-clip: padding-box; */
      /* background-clip: content-box; */
-     padding: 30px;
-     background: silver url(./1.jpg) no-repeat scroll left bottom / 100% border-box content-box;
+     /* padding: 30px;
+     background: silver url(./1.jpg) no-repeat scroll left bottom / 100% border-box content-box; */
  }
 
  body{
@@ -411,3 +411,59 @@ img{
     /* background-attachment: scroll; */
     /* background-attachment: fixed; */
  }
+
+ table{
+     border: 1px solid red;
+     width: 500px;
+     height: 300px;
+     /* border-collapse: collapse; */
+     border-collapse: separate;
+     border-spacing: 15px;
+     caption-side: bottom;
+     /* empty-cells: show; */
+     empty-cells: hide;
+     /* table-layout: auto; */
+     table-layout: fixed;
+ }
+
+ ul{
+     /* list-style-type: circle; */
+     width: 300px;
+     /* list-style-position: inside; */
+     /* list-style-position: outside;
+     list-style-image: url(./Go.ico); */
+    list-style: lower-alpha inside url(./Go.ico);
+ }
+
+ table tr td{
+     /* vertical-align: bottom; */
+     /* vertical-align: top; */
+     /* vertical-align: middle; */
+ }
+
+ b{
+     /* vertical-align: sub; */
+     vertical-align: super;
+ }
+
+ #testv{
+     height: 500px;
+     width: 500px;
+     background: greenyellow;
+     vertical-align: middle;
+ }
+
+ #testv2{
+    height: 500px;
+    width: 500px;
+    background:darkkhaki;
+    text-align: center;
+}
+
+#testv2 span{
+    vertical-align: -400%;
+}
+
+em{
+    vertical-align: 400%;
+}
