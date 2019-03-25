@@ -167,7 +167,7 @@ input:optional{
 } */
 
 /* 动态伪类选择器 */
-a:link{
+/* a:link{
     color: blue;
 }
 
@@ -185,4 +185,21 @@ a:active{
 
 input:focus{
     border: 5px double red;
+} */
+
+/* 其它伪类选择器 */
+a:not([href*="baidu"]){
+    color: aqua;
+}
+
+p:empty{
+    display: none;
+}
+
+div:target{
+    color: red;
+}
+
+::selection{
+    color: rebeccapurple;
 }
