@@ -443,9 +443,9 @@ img{
 
  b{
      /* vertical-align: sub; */
-     vertical-align: super;
+     /* vertical-align: super; */
  }
-
+/* 
  #testv{
      height: 500px;
      width: 500px;
@@ -466,16 +466,30 @@ img{
 
 em{
     vertical-align: 400%;
+} */
+
+div{
+    /* height: 200px;
+    width: 200px;
+    background-color: brown; */
+    /* color: blue;
+    background-color: brown;
+    opacity: 0.1; */
+    /* box-shadow: 10px 10px 5px 2px gray inset;
+    outline: 5px dotted red;
+    cursor: text; */
 }
 
 div{
     height: 200px;
     width: 200px;
-    background-color: brown;
-    /* color: blue;
-    background-color: brown;
-    opacity: 0.1; */
-    box-shadow: 10px 10px 5px 2px gray inset;
-    outline: 5px dotted red;
-    cursor: text;
+    animation:    myfirst 2s       ease-in-out    0s        3          alternate forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    background: black;
+
+}
+
+@keyframes myfirst{
+    from{background: blue; margin-left: 0px;}
+    to {background: chocolate; margin-left: 200px;}
 }
