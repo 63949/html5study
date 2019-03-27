@@ -479,3 +479,34 @@ div{
     outline: 5px dotted red;
     cursor: text;
 }
+
+/* 文本阴影 text-shadow */
+#t2{
+    /* text-shadow: 5px 1px 1px rebeccapurple,
+                5px 5px 1px red;
+    font: 5em sans-serif; */
+}
+/* 文本裁剪 text-overflow*/
+#t2{
+    /* height: 300px;
+    width: 300px;
+    border: 1px dashed red; */
+    /* text-overflow: clip; */ /* 这是默认值 */
+    /* white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; */
+    /* 这三个属性要一起用 */
+}
+/* 文本描边 */ /*  -webkit-text-stroke  */
+#t3{
+    height: 300px;
+    width: 300px;
+    -webkit-text-stroke: 3px red;
+}
+/* 文本填充 */
+#t4{
+    font-size: 150px;
+    background: -webkit-linear-gradient(bottom,#eee,#aaa 50%,#333 51%,#000);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
