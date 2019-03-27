@@ -443,9 +443,9 @@ img{
 
  b{
      /* vertical-align: sub; */
-     vertical-align: super;
+     /* vertical-align: super; */
  }
-
+/* 
  #testv{
      height: 500px;
      width: 500px;
@@ -466,7 +466,7 @@ img{
 
 em{
     vertical-align: 400%;
-}
+} */
 
 div{
     /* height: 200px;
@@ -480,6 +480,7 @@ div{
     cursor: text; */
 }
 
+<<<<<<< HEAD
 /* 文本阴影 text-shadow */
 #t2{
     /* text-shadow: 5px 1px 1px rebeccapurple,
@@ -534,4 +535,17 @@ div{
     /* background-image: radial-gradient(circle 30px,orange,green); */
     background-image: repeating-radial-gradient(circle 30px,orange,green);
 
+
+div{
+    height: 200px;
+    width: 200px;
+    animation:    myfirst 2s       ease-in-out    0s        3          alternate forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    background: black;
+
+}
+
+@keyframes myfirst{
+    from{background: blue; margin-left: 0px;}
+    to {background: chocolate; margin-left: 200px;}
 }
