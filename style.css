@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* TODO::header 和 aside 无法对齐左边距 */
+
 body{
     margin: 0 auto;
     width: 960px;
@@ -15,4 +15,10 @@ aside{
     width: 200px;
     height: 500px;
     background-color: blue;
+}
+
+section{
+    width: 760px;
+    height: 500px;
+    background-color: maroon;
 }
