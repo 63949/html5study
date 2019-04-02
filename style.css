@@ -15,10 +15,12 @@ aside{
     width: 200px;
     height: 500px;
     background-color: blue;
+    float: left;
 }
 
 section{
     width: 760px;
     height: 500px;
     background-color: maroon;
+    float: left;
 }
