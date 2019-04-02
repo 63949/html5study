@@ -1,34 +1,18 @@
 @charset "UTF-8";
-
+/* header 和 aside 无法对齐左边距 */
 body{
     margin: 0;
 }
 
-table{
-    /* width:960px; */
-    width: 100%;
-    margin: 0 auto;
-    /* border-spacing: 0px; */
-    border-collapse: collapse; /* 边框塌陷，比borader-spacing 还少一个像素 */
-}
-
-.header{
+header{
+    width: 960px;
     height: 120px;
     background-color: olive;
+    margin: 0 auto;
 }
 
-.aside{
+aside{
     width: 200px;
     height: 500px;
-    background-color: purple;
-}
-
-.section{
-    width: 760px;
-    background-color: maroon;
-}
-
-.footer{
-    height: 150px;
-    background-color: gray;
+    background-color: blue;
 }
