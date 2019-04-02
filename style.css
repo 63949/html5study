@@ -1,14 +1,14 @@
 @charset "UTF-8";
-/* header 和 aside 无法对齐左边距 */
+/* TODO::header 和 aside 无法对齐左边距 */
 body{
-    margin: 0;
+    margin: 0 auto;
+    width: 960px;
+    /* border: 1px solid red; */
 }
 
 header{
-    width: 960px;
     height: 120px;
     background-color: olive;
-    margin: 0 auto;
 }
 
 aside{
