@@ -2,7 +2,8 @@
 
 body{
     margin: 0 auto;
-    width: 960px;
+    width: 100%;
+    /* 在压缩到一定下的时候aside和section还是不能在一行，并且不能选择要隐藏的部分 */
     /* border: 1px solid red; */
 }
 
