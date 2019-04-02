@@ -24,3 +24,9 @@ section{
     background-color: maroon;
     float: left;
 }
+/* 不设置aside和section盖住footer,设置 float:left,还要设置footer的宽度 */
+footer{
+    background-color: gray;
+    height: 150px;
+    clear: both;
+}
