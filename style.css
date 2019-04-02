@@ -5,7 +5,8 @@ body{
 }
 
 table{
-    width:960px;
+    /* width:960px; */
+    width: 100%;
     margin: 0 auto;
     /* border-spacing: 0px; */
     border-collapse: collapse; /* 边框塌陷，比borader-spacing 还少一个像素 */
