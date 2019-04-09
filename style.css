@@ -11,6 +11,7 @@ ul{
 
 #header {
     width: 100%; /* 撑开整行 */
+    min-width: 1263px;
     height: 70px;
     background-color: #333;
 }
@@ -55,4 +56,16 @@ ul{
 #header  .link a:hover,
 #header  .active a{
     background-color: #000;
+}
+
+.none{
+    display: none;
+}
+
+#search{
+    /* width: 1960px; */
+    width: 100%;
+    min-width: 1263px;
+    height: 600px;
+    background: url("./img/search.jpg") no-repeat center;
 }
