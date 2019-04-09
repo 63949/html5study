@@ -46,13 +46,13 @@ ul{
     float: left; /* 导航项在一行 */
 }
 
-#nav > .link a{
+#nav  .link a{
     color: #eee;
     /* background-color: red; */
     display: block;
 }
 
-#nav > .link a:hover,
-#nav > .active a{
+#nav  .link a:hover,
+#nav  .active a{
     background-color: #000;
 }
