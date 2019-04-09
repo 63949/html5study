@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* 该布局支持最小1280,最多1960布局,再小会出现滚动条 */
-body,h1,ul{
+body,h1,h2,ul,p{
     margin: 0;
     padding: 0;
 }
@@ -127,5 +127,22 @@ ul{
     width: 1263px;
     height: 1200px;
     margin: 0px auto;
-    color: #eee;
+    /* color: #eee; */
+    margin: 30px auto;
+}
+
+#tour .center{
+    text-align: center;
+}
+
+#tour .center h2{
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #666;
+    margin: 10px 0;
+}
+
+#tour .center p{
+    color:#666;
+    margin: 10px 0;
 }
