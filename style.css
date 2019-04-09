@@ -68,4 +68,17 @@ ul{
     min-width: 1263px;
     height: 600px;
     background: url("./img/search.jpg") no-repeat center;
+    position: relative;
+}
+
+#search .center{
+    width: 600px;
+    height: 60px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -300px;
+    opacity: 0.6;
+    border-radius: 10px;
 }
