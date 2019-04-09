@@ -8,21 +8,31 @@
     <title>PC端网页布局</title>
 </head>
 <body>
-    <nav id="nav">
-        <section class="center">
+    <header id="header">
+        <div class="center">
             <h1 class="logo">桂林旅行社</h1>
-            <ul class="link">
-                <li class="active"><a href="#">首页</li></a>
-                <li><a href="#">旅游资讯</li></a>
-                <li><a href="#">机票订购</li></a>
-                <li><a href="#">风景欣赏</li></a>
-                <li><a href="#">公司简介</li></a>
-            </ul>
-        </section>
+            <nav class="link">
+                <h1 class="none">网站导航</h1>
+                <ul>
+                    <li class="active"><a href="#">首页</li></a>
+                    <li><a href="#">旅游资讯</li></a>
+                    <li><a href="#">机票订购</li></a>
+                    <li><a href="#">风景欣赏</li></a>
+                    <li><a href="#">公司简介</li></a>
+                </ul>
+            </nav>
+        </div>
         
-    </nav>
-    <header>header</header>
-    <section>body</section>
+    </header>
+    <section>
+        <h1>网页内容</h1>
+    </section>
     <footer>footer</footer>
 </body>
 </html>
+<!-- https://gsnedders.html5.org/outliner/ 大纲算法验证网址 -->
+<!-- body section nav 需要标题
+div header 不需要标题 
+nav 只放 ol ul元素
+用display=none; 隐藏大纲文字，避免破坏网页布局
+-->

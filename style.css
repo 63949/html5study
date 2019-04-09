@@ -9,20 +9,20 @@ ul{
     list-style: none outside none ;
 }
 
-#nav {
+#header {
     width: 100%; /* 撑开整行 */
     height: 70px;
     background-color: #333;
 }
 
-#nav .center {
+#header .center {
     width: 1263px;
     height: 70px;
     /* background-color: red; */
     margin: 0 auto;
 }
 
-#nav .logo {
+#header .logo {
     width: 240px;
     height: 70px;
     /* background-color: white; */
@@ -31,7 +31,7 @@ ul{
     float: left; /* 图片在左 */
 }
 
-#nav .link{
+#header .link{
     /* background-color: red; */
     color: #eee;
     height: 70px;
@@ -40,19 +40,19 @@ ul{
     width: 650px;
 }
 
-#nav .link > li{
+#header .link li{
     width: 120px;
     text-align: center;
     float: left; /* 导航项在一行 */
 }
 
-#nav  .link a{
+#header  .link a{
     color: #eee;
     /* background-color: red; */
     display: block;
 }
 
-#nav  .link a:hover,
-#nav  .active a{
+#header  .link a:hover,
+#header  .active a{
     background-color: #000;
 }
