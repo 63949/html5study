@@ -15,14 +15,14 @@ ul{
     background-color: #333;
 }
 
-#nav section {
+#nav .center {
     width: 1263px;
     height: 70px;
     /* background-color: red; */
     margin: 0 auto;
 }
 
-#nav section h1 {
+#nav .logo {
     width: 240px;
     height: 70px;
     /* background-color: white; */
@@ -31,7 +31,7 @@ ul{
     float: left; /* 图片在左 */
 }
 
-#nav > section > ul{
+#nav .link{
     /* background-color: red; */
     color: #eee;
     height: 70px;
@@ -40,19 +40,19 @@ ul{
     width: 650px;
 }
 
-#nav > section > ul > li{
+#nav .link > li{
     width: 120px;
     text-align: center;
     float: left; /* 导航项在一行 */
 }
 
-#nav > section > ul > li > a{
+#nav > .link a{
     color: #eee;
     /* background-color: red; */
     display: block;
 }
 
-#nav > section > ul > li > a:hover,
-#nav > section > ul > li.active a{
+#nav > .link a:hover,
+#nav > .active a{
     background-color: #000;
 }
