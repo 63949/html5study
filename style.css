@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* 该布局支持最小1280,最多1960布局,再小会出现滚动条 */
-body,h1,h2,ul,p{
+body,h1,h2,ul,p,figure{
     margin: 0;
     padding: 0;
 }
@@ -128,12 +128,14 @@ ul{
     height: 1200px;
     margin: 0px auto;
     /* color: #eee; */
+    /* background-color: #eee; */
     margin: 30px auto;
-}
-
-#tour .center{
     text-align: center;
 }
+
+/* #tour .center{
+    text-align: center;
+} */
 
 #tour .center h2{
     font-size: 45px;
@@ -145,4 +147,16 @@ ul{
 #tour .center p{
     color:#666;
     margin: 10px 0;
+}
+
+#tour figure{
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 15px 12px;
+}
+
+#tour figure img{
+    vertical-align: middle;
 }
