@@ -125,7 +125,7 @@ ul{
 
 #tour{
     width: 1263px;
-    height: 1200px;
+    height: 1150px;
     margin: 0px auto;
     /* color: #eee; */
     /* background-color: #eee; */
@@ -211,3 +211,21 @@ ul{
     top: 4px;
     left: 4px;
 }
+
+#footer{
+    height: 360px;
+    background-color: #222;
+}
+
+#footer .top{
+    width: 1263px;
+    height: 280px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+footer .bottom{
+    height: 80px;
+    background-color: #000;
+}
+
