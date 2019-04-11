@@ -220,10 +220,42 @@ ul{
 #footer .top{
     width: 1263px;
     height: 280px;
-    background-color: red;
+    background-color: #eee;
     margin: 0 auto;
+    text-align: center;
 }
 
+#footer .block{
+    width: 410px;
+    height: 280px;
+    /* background-color: blue; */
+    display: inline-block;
+    text-align: left;
+}
+
+/* #footer .left{
+    width: 410px;
+    height: 280px;
+    background-color: blue;
+    display: inline-block;
+    text-align: left;
+}
+
+#footer .center{
+    width: 410px;
+    height: 280px;
+    background-color: green;
+    display: inline-block;
+    text-align: left;
+}
+
+#footer .right{
+    width: 410px;
+    height: 280px;
+    background-color: yellow;
+    display: inline-block;
+    text-align: left;
+} */
 footer .bottom{
     height: 80px;
     background-color: #000;
