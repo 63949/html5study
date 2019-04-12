@@ -41,13 +41,53 @@
 #container .sidebar{
     width: 320px;
     /* height: 1200px; */
-    background-color: #eee;
-    float: left;
+    /* background-color: #eee; */
+    float: right;
 }
 
 #container .list{
     width: 920px;
     /* height: 1200px; */
     background-color: #ccc;
-    float: right;
+    float: left;
+}
+
+#container .sidebox{
+    /* background-color:red; */
+    border: 1px solid #eee;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+#container .sidebox h2{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    background-color: #fafafa;
+    color: #666;
+    text-align: left;
+}
+
+#container .tag{
+    padding: 10px 0;
+}
+
+#container .tag a{
+    display: inline-block;
+    margin: 2px 0;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    color: #999;
+    background-color: #eee;
+    text-align: left;
+    text-indent: 8px;
+}
+
+#container .tag a:hover{
+    background-color: #458b00;
+    color: #fff;
 }
