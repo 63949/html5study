@@ -116,6 +116,10 @@
     font-weight: normal;
 }
 
+#tour .info{
+    padding: 5px 0 0 0;
+}
+
 #tour .sat{
     float: right;
     font-size: 13px;

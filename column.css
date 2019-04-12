@@ -75,7 +75,7 @@
     padding: 10px 0;
 }
 
-#container .tag a{
+#container .tag li{
     display: inline-block;
     margin: 2px 0;
     width: 100px;
@@ -85,6 +85,11 @@
     background-color: #eee;
     text-align: left;
     text-indent: 8px;
+}
+
+#container .tag a{
+    color: #999;
+    display: block;
 }
 
 #container .tag a:hover{
