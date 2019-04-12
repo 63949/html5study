@@ -30,3 +30,24 @@
     letter-spacing: 1px;
     font-size: 20px;
 }
+
+#container {
+    width: 1263px;
+    height: 1200px;
+    /* background-color: red; */
+    margin: 30px auto;
+}
+
+#container .sidebar{
+    width: 320px;
+    height: 1200px;
+    background-color: #eee;
+    float: left;
+}
+
+#container .list{
+    width: 920px;
+    height: 1200px;
+    background-color: #ccc;
+    float: right;
+}
