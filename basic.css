@@ -69,6 +69,11 @@ ul{
 #footer{
     height: 360px;
     background-color: #222;
+    /* 避免footer插入到containter下面 */
+    clear: both;
+    /* 设置成相对布局,在原位置的基础上用top向下偏移10像素 */
+    position: relative;
+    top: 20px;
 }
 
 #footer .top{
