@@ -39,7 +39,7 @@
 }
 
 #container .sidebar{
-    width: 320px;
+    width: 340px;
     /* height: 1200px; */
     /* background-color: #eee; */
     float: right;
@@ -90,4 +90,14 @@
 #container .tag a:hover{
     background-color: #458b00;
     color: #fff;
+}
+
+#container .figure{
+    padding: 10px 0;
+}
+
+#container .hot figure{
+    display: inline-block;
+    color: #666;
+    padding: 4px;
 }
