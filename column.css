@@ -46,7 +46,7 @@
 }
 
 #container .list{
-    width: 920px;
+    width: 900px;
     /* height: 1200px; */
     background-color: #ccc;
     float: left;
@@ -100,4 +100,33 @@
     display: inline-block;
     color: #666;
     padding: 4px;
+}
+
+#container .box{
+    padding: 10px 0;
+}
+
+#container .box a{
+    display: inline-block;
+    margin: 2px 0;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #999;
+    background-color: #eee;
+    text-align: left;
+    text-indent: 35px;
+}
+
+#container .box a.trea1{
+    background: #eee url(./img/trea1.png) no-repeat 10px center;
+}
+#container .box a.trea2{
+    background: #eee url(./img/trea2.png) no-repeat 10px center;
+}
+#container .box a.trea3{
+    background: #eee url(./img/trea3.png) no-repeat 10px center;
+}
+#container .box a.trea4{
+    background: #eee url(./img/trea4.png) no-repeat 10px center;
 }
