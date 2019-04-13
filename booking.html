@@ -16,8 +16,8 @@
                 <h1 class="none">网站导航</h1>
                 <ul>
                     <li><a href="index.html">首页</li></a>
-                    <li class="active"><a href="information.html">旅游资讯</li></a>
-                    <li><a href="booking.html">机票订购</li></a>
+                    <li><a href="information.html">旅游资讯</li></a>
+                    <li class="active"><a href="booking.html">机票订购</li></a>
                     <li><a href="#">风景欣赏</li></a>
                     <li><a href="#">公司简介</li></a>
                 </ul>
@@ -104,43 +104,105 @@
                 </div>
             </div>
         </aside>
-        <div class="list">
-            <div class="infor">
-                <ul class="left">
-                    <li><a href="###">限时特价</a></li>
-                    <li><a href="###">热门推荐</a></li>
+        <div class="list ticket">
+            <form action="###">
+                <h2>机票预订</h2>
+                <div class="type">
+                    <p>航程类型<mark>单程</mark> 往返</p>
+                </div>
+                <div class="form left">
+                    <p>
+                        <label for="from_city">出发城市</label>
+                        <input type="text" name="from_city" id="from_city" placeholder="城市名">
+                    </p>
+                    <p>
+                        <label for="to_city">返回城市</label>
+                        <input type="text" name="to_city" id="to_city" placeholder="城市名">
+                    </p>
+                </div>
+                <div class="form right">
+                    <p>
+                        <label for="from_date">出发时间</label>
+                        <input type="text" name="from_date" id="from_date" placeholder="时间/日期">
+                    </p>
+                    <p>
+                        <label for="to_date">返回时间</label>
+                        <input type="text" name="to_date" id="to_date" placeholder="时间/日期">
+                    </p>
+                </div>
+                <div class="form button">
+                    <p>
+                        <button type="submit" class="submit">订票</button>
+                    </p>
+                </div>
+            </form>
+
+            <div class="new">
+                <h2>最新机票</h2>
+                <ul>
+                    <li>热门城市</li>
+                    <li>北京</li>
+                    <li>上海</li>
+                    <li>广州</li>
+                    <li>深圳</li>
+                    <li>重庆</li>
+                    <li>成都</li>
+                    <li>杭州</li>
+                    <li>南京</li>
                 </ul>
-                <ul class="right">
-                    <li><a href="###" class="selected">推荐</a></li>
-                    <li><a href="###">折扣</a></li>
-                    <li><a href="###">价格</a></li>
-                </ul>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>路线</th>
+                            <th>日期</th>
+                            <th>价格</th>
+                            <th>税费</th>
+                            <th>餐食</th>
+                            <th>航班</th>
+                            <th>预订</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>北京-成都</td>
+                            <td>10-15</td>
+                            <td class="price">￥745</td>
+                            <td>￥50</td>
+                            <td>有</td>
+                            <td>春秋航空</td>
+                            <td><a href="###" class="reserve">预订</a></td>
+                        </tr>
+                        <tr>
+                            <td>北京-成都</td>
+                            <td>10-15</td>
+                            <td class="price">￥745</td>
+                            <td>￥50</td>
+                            <td>有</td>
+                            <td>春秋航空</td>
+                            <td><a href="###" class="reserve">预订</a></td>
+                        </tr>
+                        <tr>
+                            <td>北京-成都</td>
+                            <td>10-15</td>
+                            <td class="price">￥745</td>
+                            <td>￥50</td>
+                            <td>有</td>
+                            <td>春秋航空</td>
+                            <td><a href="###" class="reserve">预订</a></td>
+                        </tr>
+                        <tr>
+                            <td>北京-成都</td>
+                            <td>10-15</td>
+                            <td class="price">￥745</td>
+                            <td>￥50</td>
+                            <td>有</td>
+                            <td>春秋航空</td>
+                            <td><a href="###" class="reserve">预订</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <figure class="tour">
-                <img src="./img/tour1.jpg" alt="曼谷-芭提雅6日游">
-                <figcaption>
-                    <article>
-                        <header>
-                            <hgroup>
-                                <h2>曼谷-芭提雅6日游</h2>
-                                <h3>包团特惠,超丰富景点,升级1晚国五,无自费,赠送600元成人劵...</h3>
-                            </hgroup>
-                        </header>
-                        <ol>
-                            <li><mark>交通</mark>春秋航空,桂林出发,无须转机</li>
-                            <li><mark>团期</mark>11/01、11/03、11/08...</li>
-                        </ol>
-                        <div class="buy">
-                            <div class="price">￥<strong>2864</strong><s>￥3980</s></div>
-                            <div class="reserve"><a href="###">立即抢购</a></div>
-                        </div>
-                        <div class="type">国内长线</div>
-                        <div class="disc"><span>4.7折</span></div>
-                        <footer>本团游由桂林旅行社赞助提供，截止于<time>2019-04-10</time></footer>
-                    </article>
-                </figcaption>
-            </figure>
-            <div class="more">加载更多...</div>
         </div>
     </div>
     <footer id="footer">
