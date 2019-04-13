@@ -510,3 +510,21 @@
     text-align: center;
 }
 
+#container .scenery figure{
+    /* background-color: red; */
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    width: 435px;
+    margin: 15px 5px 15px 0;
+    text-align: left;
+}
+
+#container .scenery figcaption{
+    /* background-color: red; */
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+    color: #666;
+}
