@@ -528,3 +528,20 @@
     font-size: 20px;
     color: #666;
 }
+
+#container .about p{
+    font-size: 20px;
+    color: #666;
+    line-height: 2;
+    margin: 20px 0;
+    /* background-color: red; */
+}
+
+#container .about address{
+    font-style: normal;
+    font-style: 20px;
+    color: #666666;
+    margin: 20px 0;
+    line-height: 1.6;
+    /* background-color: red */
+}
