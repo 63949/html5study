@@ -116,7 +116,7 @@ img{
 }
 
 /* 布局把边框放到 height weight里计算 */
-div{
+div,figure, figcaption{
     box-sizing: border-box;
 }
 
@@ -140,6 +140,60 @@ div{
     font-size: .16rem;
 }
 
+#tour figure{
+    width: 50%;
+    float: left;
+    background-color: #eee;
+    font-size: .16rem;
+    /* margin: 0 0 .05rem 0; */
+}
+
+#tour figure img{
+    padding: .02rem;
+    border-radius: .04rem;
+    /* vertical-align: middle; */
+}
+
+#tour figcaption{
+    color: #666;
+    padding: .02rem .05rem;
+}
+
+#tour figcaption h4{
+    display: block;
+    /* background-color: red; */
+    font-weight: normal;
+    padding: .05rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#tour figcaption p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#tour .info{
+    padding: .1rem 0 0 0;
+}
+
+#tour .price{
+    color: #f60;
+}
+
+#tour .price strong{
+    letter-spacing: 0.01rem;
+}
+
+#tour .sat{
+    color: #999;
+    font-style: normal;
+    float: right;
+    position: relative;
+    right: 0.05rem;
+}
 #footer{
     background-color: #222222;
     max-width: 6.4rem;
@@ -158,7 +212,7 @@ div{
         font-size: 0.26rem;
     }
     
-    #tour h3{
+    #tour h3, #tour figure, #tour .info{
         font-size: .16rem;
     }
 
@@ -172,7 +226,7 @@ div{
         font-size: .18rem;
     }
     
-    #tour h3{
+    #tour h3, #tour figure, #tour .info{
         font-size: .14rem;
     }
 
