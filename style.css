@@ -74,6 +74,44 @@ img{
     padding: 0.45rem 0 0 0;
 }
 
+#search{
+    /* background-color: red; */
+    max-width: 6.4rem;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+
+#search .search{
+    /* background-color: red; */
+    display: block;
+    outline: none;
+    width: 95%;
+    font-size: .14rem;
+    border-radius: .04rem;
+    background-color: #fff;
+    border: none;
+    height: .3rem;
+    padding: 0 0.05rem;
+    margin: 0 auto;
+}
+
+#search .button{
+    /* display: block; */
+    background-color: #eee;
+    outline: none;
+    cursor: pointer;
+    color: #666;
+    width: .5rem;
+    height: .3rem;
+    border: none;
+    font-size: .12rem;
+}
+
+/* 布局把边框放到 height weight里计算 */
+/* div{
+    box-sizing: border-box;
+} */
+
 #footer{
     background-color: #222222;
     max-width: 6.4rem;
