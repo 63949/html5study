@@ -79,6 +79,7 @@ img{
     max-width: 6.4rem;
     background-color: #ddd;
     margin: 0 auto;
+    position: relative;
 }
 
 #search .search{
@@ -105,6 +106,9 @@ img{
     height: .3rem;
     border: none;
     font-size: .12rem;
+    position: absolute;
+    right: 1%;
+    top: 0;
 }
 
 /* 布局把边框放到 height weight里计算 */
