@@ -120,6 +120,26 @@ div{
     box-sizing: border-box;
 }
 
+#tour{
+    /* background-color: red; */
+    max-width: 6.4rem;
+    margin: .1rem auto 0 auto;
+}
+
+#tour h2{
+    text-align: center;
+    color: #666;
+    font-size: 0.26rem;
+}
+
+#tour h3{
+    text-align: center;
+    font-weight: normal;
+    color: #666;
+    margin: .05rem 0 .1rem 0;
+    font-size: .16rem;
+}
+
 #footer{
     background-color: #222222;
     max-width: 6.4rem;
