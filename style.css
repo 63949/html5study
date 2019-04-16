@@ -80,6 +80,8 @@ img{
     background-color: #ddd;
     margin: 0 auto;
     position: relative;
+    height: .33rem;
+    padding: .03rem 0 0 0;
 }
 
 #search .search{
@@ -91,7 +93,7 @@ img{
     border-radius: .04rem;
     background-color: #fff;
     border: none;
-    height: .3rem;
+    height: .27rem;
     padding: 0 0.05rem;
     margin: 0 auto;
 }
@@ -103,18 +105,20 @@ img{
     cursor: pointer;
     color: #666;
     width: .5rem;
-    height: .3rem;
+    height: .27rem;
     border: none;
     font-size: .12rem;
     position: absolute;
     right: 1%;
-    top: 0;
+    top: .03rem;
+    border-top-right-radius: .04rem;
+    border-bottom-right-radius: .04rem;
 }
 
 /* 布局把边框放到 height weight里计算 */
-/* div{
+div{
     box-sizing: border-box;
-} */
+}
 
 #footer{
     background-color: #222222;
