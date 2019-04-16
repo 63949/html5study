@@ -33,6 +33,7 @@ html{
     height: 0.45rem;
     font-size: 0.16rem;
     background-color: #333;
+    position: fixed;
     /* margin: 0 auto; */
 }
 
@@ -69,5 +70,5 @@ img{
 #adver {
     max-width: 6.4rem;
     margin: 0 auto;
-    /* padding: 0.45rem 0 0 0; */
+    padding: 0.45rem 0 0 0;
 }
