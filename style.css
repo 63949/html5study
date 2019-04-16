@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/* 让图片自适应大小 */
-/* img{
-    display: block;
-    max-width: 100%;
-} */
-
 body,h1,h2,h3,p,ul,ol,form,fieldset,figure{
     margin: 0;
     padding: 0;
@@ -46,11 +40,11 @@ html{
     width: 25%;
     text-align: center;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 #header .link{
-    background-color: red;
+    /* background-color: red; */
     height: 0.45rem;
     line-height: 0.45rem;
 }
@@ -64,4 +58,16 @@ html{
 #header .active a{
     background-color: #000;
 
+}
+
+/* 让图片自适应大小 */
+img{
+    display: block;
+    max-width: 100%;
+}
+
+#adver {
+    max-width: 6.4rem;
+    margin: 0 auto;
+    /* padding: 0.45rem 0 0 0; */
 }
