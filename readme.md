@@ -1,1 +1,1 @@
-# css学习例子收集
+# javascript学习例子收集
